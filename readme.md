@@ -4,3 +4,7 @@ Based on: Buildroot SDK V1
 
 Main purpose of this modification for me was to allow RISCV binaries of tailscale to run on my 64MB Duo.
 Succesfully tested for my home automation project
+
+changes from Buildroot SDK V1:
+- no free RTOS + freed ~30MB RAM
+- enabled Universal TUN/TAP Driver in Linux kernel and other dependancies required for tailsacle
